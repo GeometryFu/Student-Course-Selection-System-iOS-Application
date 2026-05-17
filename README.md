@@ -3,16 +3,56 @@
 ## 项目简介
 这是一个基于 Swift 的 iOS 应用程序，旨在为学生和教师提供一个管理学生课程、成绩和个人信息的便捷平台。该应用程序包含多个模块，支持学生和教师的不同功能需求。
 
+
 ## 功能模块
+
+### 登陆界面
+可以选择学生端和教师端登录
+![登录界面](docs/images/Login.png)
 
 ### 学生功能
 - **课程管理**：查看已选课程和课程详情。
+<p align="center">
+  <img src="docs/images/student/StudentSelectCourse1.png" alt="学生选课" height="400">
+  <img src="docs/images/student/StudentSelectCourse2.png" alt="学生选课" height="400">
+  <img src="docs/images/student/StudentSelectCourse3.png" alt="学生选课" height="400">
+</p>
+
 - **成绩查询**：查看各科成绩。
 - **个人信息**：查看和更新个人资料。
+<p align="center">
+  <img src="docs/images/student/StudentGrade.png" alt="成绩查询" height="400">
+  <img src="docs/images/student/StudentPersonInformation.png" alt="个人信息" height="400">
+</p>
+
 
 ### 教师功能
 - **课程管理**：管理课程和学生选课。
+<p align="center">
+  <img src="docs/images/teacher/TeacherManageCourse.png" alt="课程管理" height="400">
+  <img src="docs/images/teacher/TeacherManageCourse2.png" alt="课程管理" height="400">
+  <img src="docs/images/teacher/TeacherManageCourse3.png" alt="课程管理" height="400">
+</p>
+
 - **学生管理**：查看学生信息和成绩。
+<p align="center">
+  <img src="docs/images/teacher/TeacherSeacrhStudent1.png" alt="学生查询" height="400">
+  <img src="docs/images/teacher/TeacherManageGrade.png" alt="成绩管理" height="400">
+</p>
+<p align="center">
+  <img src="docs/images/teacher/TeacherManageStudent1.png" alt="学生管理" height="400">
+  <img src="docs/images/teacher/TeacherManageStudent2.png" alt="学生管理" height="400">
+  <img src="docs/images/teacher/TeacherManageStudent3.png" alt="学生管理" height="400">
+</p>
+<p align="center">
+  <img src="docs/images/teacher/TeacherManageGrade1.png" alt="成绩管理" height="400">
+  <img src="docs/images/teacher/TeacherManageGrade2.png" alt="成绩管理" height="400">
+  <img src="docs/images/teacher/TeacherManageGrade3.png" alt="成绩管理" height="400">
+</p>
+
+
+
+
 
 ## 项目结构
 
@@ -37,7 +77,7 @@
 
 1. 克隆项目到本地：
    ```bash
-   git clone <仓库地址>
+   git clone https://github.com/GeometryFu/Student-Course-Selection-System-iOS-Application
    ```
 
 2. 打开项目：
