@@ -8,6 +8,9 @@
 
 ### 登陆界面
 可以选择学生端和教师端登录
+<p>
+<img src="docs/images/Login.png" alt="登录界面" height="400">
+</p>
 ![登录界面](docs/images/Login.png)
 
 ### 学生功能
